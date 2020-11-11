@@ -129,8 +129,8 @@ Please read [CONTRIBUTING.md](https://github.com/jfrog/horae/blob/main/CONTRIBUT
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-See also the list of [contributors](https://github.com/shimib/horae/blob/master/contributors.md) who participated in this project.
+See also the list of [contributors](https://github.com/jfrog/horae/blob/main/contributors.md) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/shimib/horae/blob/master/LICENSE.md) file for details
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](https://github.com/jfrog/horae/blob/main/LICENSE.md) file for details
