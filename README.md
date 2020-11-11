@@ -91,17 +91,17 @@ You can follow the instructions [here](https://www.jfrog.com/confluence/display/
 
 You're all set now, and ready to initialize your environment and run your first Pipelines!
 
-  ![Image of all pipelines](https://github.com/shimib/horae/blob/master/imgs/Pipelines.png)
+  ![Image of all pipelines](https://github.com/shimib/horae/blob/main/imgs/Pipelines.png)
 
 #### 4.0 Run Pipelines
 
   4.1. Run the init pipeline 1st which should: Create users, groups, permissions, repositories, Xray policies & watches, update Xray indexes and setup Access Federation.
   
-  ![Image of init trigger](https://github.com/shimib/horae/blob/master/imgs/run_init.png)
+  ![Image of init trigger](https://github.com/shimib/horae/blob/main/imgs/run_init.png)
   
   4.2. Run the gradle_build pipeline
   
-  ![Image of gradle pipelines trigger](https://github.com/shimib/horae/blob/master/imgs/run_gradle.png)
+  ![Image of gradle pipelines trigger](https://github.com/shimib/horae/blob/main/imgs/run_gradle.png)
   
   4.3. Run the npm_build pipeline
   
