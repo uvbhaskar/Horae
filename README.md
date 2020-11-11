@@ -55,8 +55,8 @@ You'll need to create 3 Pipelines integrations - [see documentation](https://www
 #### 2.0 Configure Pipeline Sources
 2.1 Fork the following two (2) repositories:
   
-  * https://github.com/shimib/horae
-  * https://github.com/shimib/project-examples (Make sure you fork the following branch: eplus-v2-orbitera or simply "all branches")
+  * https://github.com/jfrog/horae
+  * https://github.com/jfrogtraining/project-examples (Make sure you fork the following branch: eplus-v2-orbitera or simply "all branches")
   
 2.2 Next we'll need to modify some of the configuration in the forked code:
 
@@ -78,7 +78,7 @@ resources:
       branches:  
         include: eplus-v2-orbitera  
 ```  
-2.3 Add your forked repository (forked from **shimib/horae**) as a pipelines source.
+2.3 Add your forked repository (forked from **jfrog/horae**) as a pipelines source.
 You can follow the instructions [here](https://www.jfrog.com/confluence/display/JFROG/Managing+Pipeline+Sources#ManagingPipelineSources-AddingaPipelineSource(SingleBranch)) on how to add a **"Single-branch"** source
 
 > Note: 
@@ -91,17 +91,17 @@ You can follow the instructions [here](https://www.jfrog.com/confluence/display/
 
 You're all set now, and ready to initialize your environment and run your first Pipelines!
 
-  ![Image of all pipelines](https://github.com/shimib/horae/blob/main/imgs/Pipelines.png)
+  ![Image of all pipelines](https://github.com/jfrog/Horae/blob/main/imgs/Pipelines.png)
 
 #### 4.0 Run Pipelines
 
   4.1. Run the init pipeline 1st which should: Create users, groups, permissions, repositories, Xray policies & watches, update Xray indexes and setup Access Federation.
   
-  ![Image of init trigger](https://github.com/shimib/horae/blob/main/imgs/run_init.png)
+  ![Image of init trigger](https://github.com/jfrog/Horae/blob/main/imgs/run_init.png)
   
   4.2. Run the gradle_build pipeline
   
-  ![Image of gradle pipelines trigger](https://github.com/shimib/horae/blob/main/imgs/run_gradle.png)
+  ![Image of gradle pipelines trigger](https://github.com/jfrog/Horae/blob/main/imgs/run_gradle.png)
   
   4.3. Run the npm_build pipeline
   
@@ -109,7 +109,7 @@ You're all set now, and ready to initialize your environment and run your first 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/shimib/horae/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/jfrog/horae/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Contributors
 
