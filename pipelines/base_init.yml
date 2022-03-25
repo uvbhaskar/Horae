@@ -2,14 +2,14 @@ resources:
   - name: demo_gitRepo
     type: GitRepo
     configuration:
-      path: devsecops/Horae
+      path: uvbhaskar/Horae
       gitProvider: GitHub
       branches:
         include: master        
   - name: gitRepo_code
     type: GitRepo
     configuration:
-      path: devsecops/project-examples
+      path: uvbhaskar/project-examples
       gitProvider: GitHub
       branches:
         include: eplus-v2-orbitera
