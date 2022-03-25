@@ -12,7 +12,7 @@ resources:
       path: uvbhaskar/project-examples
       gitProvider: GitHub
       branches:
-        include: eplus-v2-orbitera
+        include: master
   - name:       gradle_fileSpec
     type:       FileSpec
     configuration:     
